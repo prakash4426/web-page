@@ -1,0 +1,316 @@
+body {
+    margin: auto;
+    padding: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.container-full {
+  margin-right: auto;
+  margin-left:  auto;
+}
+.container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bg-banner {
+    background-color:#142f44;
+}
+.header {
+    padding-top:90px;
+    padding-bottom: 90px;
+}
+.logo {
+    text-align: left;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.enquiry-info {
+    text-align: right;
+    float: right;
+}
+.tag-number , .tag-copy {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#daa33f;
+}
+.color-logo {
+    color: #e6903b;
+}
+.tag-number {
+    font-size: 20px;
+    color: #000000;
+}
+.tag-copy {
+    font-size: 21px;
+}
+.bg-banner {
+    padding-top:40px;
+    padding-bottom: 80px;
+}
+.bg-banner h1 {
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    color: floralwhite;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-banner p {
+    font-size: 19px;
+    margin: 0;
+    font-weight: 130;
+    text-align: center;
+    color: floralwhite;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* content section */
+.content-section {
+    padding: 50px 0px 50px 0px;
+}
+.content-section01 {
+    padding: 0px 0px 50px 0px;
+}
+.content-section01 .content {
+    width: 500px;
+}
+.content-section01 h1 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.content-section01 p {
+    margin: 0;
+    font-family: 'Sintony', sans-serif;
+    font-size: 17px;
+    font-weight: 30;
+    line-height: 20px;
+    padding-bottom: 30px;
+}
+.content-section01 dt {
+    margin: 0;
+    font-family: 'Sintony', sans-serif;
+    font-size: 17px;
+    font-weight: 30;
+    line-height: 15px;
+    padding-bottom: 5px;
+}
+.content-section01 dd {
+    margin: 0;
+    font-family: 'Sintony', sans-serif;
+    font-size: 17px;
+    font-weight: 30;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+ul{
+list-style-type:square;
+color
+}
+.content-section01 .form {
+    width: 350px;
+    background-color:#A9A9A9;
+    padding: 60px;
+}
+.form h3 {
+    margin: 0;
+    font-family: 'Sintony', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #000000;
+}
+.form p {
+    font-family: 'Sintony', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin:0;
+    padding-bottom:20px;
+
+}
+.form input[type='text'], input[type='email'], input[type='number'], textarea  {
+    width: 105%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border:none;
+    font-family: 'Sintony', sans-serif;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+/* The container */
+.form .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Sintony', sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #ffffff;
+    box-sizing: border-box;
+    width: 100%;
+}
+.form .container a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* Hide the browser's default checkbox */
+.form .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.form .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+}
+
+/* When the checkbox is checked, add a blue background */
+.form .container input:checked ~ .checkmark {
+    background-color: #daa33f;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.form .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.form .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.form .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.form input[type=submit] {
+    background-color:#142f44;
+    border: none;
+    color: white;
+    padding: 36px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Sintony', sans-serif;
+}
+.content-section03 {
+    padding:120px 0px 150px 0px;
+}
+.feature-box {
+    color:white;
+    width: 400px;
+    padding: 35px;
+}
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.feature-box h3 {
+    margin: 0;
+    font-family: 'Sintony', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.feature-box ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+.feature-box ul li{
+    margin: 0;
+    font-family: 'Sintony', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 7px;
+}
+.feature-box p {
+    margin: 0;
+    font-family: 'Sintony', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* Tag section style */
+.tag-header {
+    padding-top:40px;
+    padding-bottom: 40px;
+    background-color: #394754;
+    font-weight: 500px;
+    line-height: 3;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tag-header p {
+    margin: 0 auto;
+    color: floralwhite;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 50;
+}
+
+/* footer section style  */
+.footer-section {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-family: 'Sintony', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-address ul, .footer-disclaimer ul {
+    list-style: none;
+    text-align: center;
+    padding-bottom:25px;
+}
+.footer-address ul li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+.footer-address p {
+    text-align: center;
+    line-height: 0.9em;
+}
